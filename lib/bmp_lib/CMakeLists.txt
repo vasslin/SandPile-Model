@@ -1,0 +1,1 @@
+add_library(bmp_lib bmp_writer.h bmp_writer.cpp)

@@ -1,0 +1,1 @@
+add_library(parser_lib parser.h parser.cpp)

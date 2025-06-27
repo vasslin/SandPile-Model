@@ -1,0 +1,3 @@
+add_subdirectory(sandpile_lib)
+add_subdirectory(parser_lib)
+add_subdirectory(bmp_lib)

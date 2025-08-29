@@ -32,15 +32,6 @@ class SandPileModel {
     void proccess();
 
    private:
-    /*
-    Данные хранятся в 2d-unrolled-linked list - структуре данных, представляющей из себя сетку (2d-linked list) из элементов
-    LatticeBlock. LatticeBlock - элемент с двумерным массивом данных и указателями на LatticeBlock с четырех сторон.
-
-    Использование данной структуры позволяет эффективнее работать с памятью (выделение целого блока памяти, попадание в
-    кэш, отсутствие необходимости для реаллокации памяти и перекопирования элементов при увеличении размера сетки (в
-    таком случае добавляется ряд нод фикс. размера))
-
-    */
 
     bool blockIteration(latticePtr& block);
     void scatter(latticePtr& block, const std::pair<size_t, size_t>& coord);
